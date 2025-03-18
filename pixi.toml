@@ -1,0 +1,25 @@
+[project]
+authors = ["Opher Donchin <donchin@bgu.ac.il>"]
+channels = ["conda-forge"]
+name = "models-of-motor-systems"
+description = "Environment for Models of the Motor System course"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.10,<3.12"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+scipy = "*"
+seaborn = "*"
+sympy = "*"
+jupyterlab = "*"
+jupyter = "*"
+scikit-learn = "*"
+tqdm = "*"
+jupytext = ">=1.16.7,<2"
+
+
