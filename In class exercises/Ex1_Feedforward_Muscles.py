@@ -59,7 +59,7 @@ def arm_plant(muscle_commands_df, initial_angle):
 # - initial_angle (in radians)
 # - desired_angle (in radians)
 # And outputs a DataFrame with columns ['time', 'flexor', 'extensor'].
-
+#
 # Your controller should generate muscle activations over time to move the arm
 # from the initial_angle to the desired_angle.
 

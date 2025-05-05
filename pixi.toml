@@ -20,6 +20,6 @@ jupyterlab = "*"
 jupyter = "*"
 scikit-learn = "*"
 tqdm = "*"
-jupytext = ">=1.16.7,<2"
+jupytext = ">=1.17.1,<2"
 
 
